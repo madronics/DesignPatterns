@@ -1,0 +1,18 @@
+1- SINGLE-RESPONSIBILITY PRINCIPLE(TEK SORUMLULUK PRENSIBI)
+Bir Sınıfın ya da fonksiyonun,metodun tek bir görevi, sorumluluğu olmalıdır. Başka sınıfların görevlerini gerçekleştirmemelidir.
+
+2- OPEN-CLOSED PRINCIPLE(AÇıK KAPALı PRENSIBI)
+Open-Closed prensibi kısacası bir programın,applicationun veya objelerin ya da entitylerin geliştirilmeye açık ancak değiştirmeye
+kapalı olduğunu belirtir. İnterface ve abstract sınıflar kullanılarak istenen eklemeler yapılabilir.
+
+3 — LISKOV SUBSTITUTION PRINCIPLE ( LISKOV’UN YERINE GEÇME PRENSIBI)
+Bir ana sınıftan ya da sınıflardan türetilen sınıfların bir üst hiyerarşideki sınıfların yerine geçmesini esas alan bir prensiptir.
+
+4- INTERFACE SEGREGATION PRINCIPLE ( ARAYÜZ AYRıMı PRENSIBI)
+Bir arayüze gerekli olmayan eklentilerin eklenmemesini belirten bir prensiptir.
+Arayüzde o an sadece kullanılacak olan eklentilerin ekli olması gerektiğini savunur.
+Bir müşteri asla kullanmadığı bir arabirimi uygulamaya zorlanmamalı veya istemciler kullanmadıkları yöntemlere bağlı olmaya zorlanmamalıdır.
+
+5- DEPENDENCY INVERSION PRINCIPLE ( BAĞıMLıLıKLARıN TERSLENMESI PRENSIBI)
+Varlıklar(Alt sınıflar ve Üst sınıflar) somut olmayan soyutlamalara bağlı olmalıdır. Üst seviye modülün düşük seviye modülüne bağlı olmamasını,
+ancak soyutlamalara bağlı olması gerektiğini belirtir. Alt sınıflarda yapılan değişiklikler üst sınıfları etkilememelidir.
