@@ -32,8 +32,8 @@ struct Relationships : RelationshipBrowser // low-level
 
   void add_parent_and_child(const Person& parent, const Person& child)
   {
-    relations.push_back(make_tuple(parent, Relationship::parent, child));
-    relations.push_back(make_tuple(child, Relationship::child, parent));
+    relations.push_back({parent, Relationship::parent, child});
+    relations.push_back({child, Relationship::child, parent});
   }
 
   vector<Person> find_all_children_of(const string &name) override
